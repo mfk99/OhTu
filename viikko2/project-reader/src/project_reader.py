@@ -8,6 +8,9 @@ class ProjectReader:
 
     def get_project(self):
         # tiedoston merkkijonomuotoinen sisältö
+
+        toml.load(f, _dict=dict)
+
         content = request.urlopen(self._url).read().decode("utf-8")
         print(content)
 
