@@ -1,5 +1,4 @@
 class Viitegeneraattori:
-    
     def __init__(self):
         self._seuraava = 1
 
@@ -7,3 +6,6 @@ class Viitegeneraattori:
         self._seuraava = self._seuraava + 1
 
         return self._seuraava
+
+
+the_viitegeneraattori_olio = Viitegeneraattori()
