@@ -38,3 +38,4 @@ class Ostoskori:
 
     def ostokset(self):
         return list(self.lista.keys())
+
