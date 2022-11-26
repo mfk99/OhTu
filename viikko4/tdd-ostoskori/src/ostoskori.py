@@ -34,8 +34,7 @@ class Ostoskori:
         else: self.lista.update({poistettava: maara-1})
 
     def tyhjenna(self):
-        pass
-        # tyhjentää ostoskorin
+        self.lista={}
 
     def ostokset(self):
         return list(self.lista.keys())
