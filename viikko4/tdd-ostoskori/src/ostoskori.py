@@ -27,8 +27,8 @@ class Ostoskori:
             self.lista.update({lisattava: maara + 1})
 
     def poista_tuote(self, poistettava: Tuote):
-        # poistaa tuotteen
-        pass
+        maara = self.lista.get(poistettava)
+        self.lista.update({poistettava: maara-1})
 
     def tyhjenna(self):
         pass
